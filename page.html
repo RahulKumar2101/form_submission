@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page1</title>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm">
+            <div class="option-fields">
+                <select name="bachelor-degree" id="degree1">
+                    <option value="bachelor-degree" disabled selected>Bachelor-degree</option>
+                    <option value="BCA" id="Bca">BCA</option>
+                    <option value="B.COM" id="B-com">B.COM</option>
+                    <option value="B.SC" id="B-sc">B.SC</option>
+                    <option value="B.ED" id="B-ed">B.ED</option>
+                    <option value="B.A" id="B.a">B.A</option>
+                </select>
+
+                <select name="Percentage" id="Percentage1">
+                    <option value="percentage" disabled selected>percentage %</option>
+                    <option class="lessthan-50" value="49">lessthan 50</option>
+                    <option class="third" value="51">50 - 65 </option>
+                    <option class="second" value="66">66 - 80</option>
+                    <option class="first" value="81">more than 81</option>
+                </select>
+            </div>
+            <br>
+            <div class="input-field">
+                <input type="text" placeholder="name" id="name">
+                <input type="email" placeholder="email" id="email">
+                <input type="number" id="number">
+                <input type="submit" value="submit" class="submit">
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
